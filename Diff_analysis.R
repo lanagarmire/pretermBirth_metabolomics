@@ -1,5 +1,3 @@
-library(limma)
-library(pheatmap)
 rm(list = ls())
 
 wkdir <- 'C:/Users/evely/Google Drive/summer intern/Preterm birth metabolomics project'
@@ -8,6 +6,8 @@ setwd(wkdir)
 
 pd = readRDS("clinic.rds")
 meta = readRDS("quant.metabolitemeasurements.rds")
+library(limma)
+library(pheatmap)
 
 pd$Preterm = factor(pd$Preterm)
 pd$Gender = factor(pd$Gender)
