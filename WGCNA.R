@@ -1,5 +1,14 @@
 
 #Overal WGCNA correlation network#####
+rm(list = ls())
+
+wkdir <- 'C:/Users/evely/Google Drive/summer intern/Preterm birth metabolomics project'
+
+setwd(wkdir)
+
+pd = readRDS("clinic.rds")
+meta = readRDS("quant.metabolitemeasurements.rds")
+
 newdat$Label = meta$Label
 
 ctrldat <- subset(newdat, Label == 'Control')
