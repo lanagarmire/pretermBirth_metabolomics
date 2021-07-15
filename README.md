@@ -4,7 +4,7 @@ Data and code for the publication Link "Maternal lipids are involved in the path
 
 ### Usage
 There are six trunks in this repositories:
-* Data read-in on the cluster 
-* Date exploration and combination 
+* Data read-in and preprocessing using script pretermmetabolite_sov.R 
+* 
 * Multiple imputation using MICE
 *
